@@ -5,5 +5,5 @@ export function pegaPrimeirosComSlice(array: number[]){
     return primeiros;
 }
 
-let oi = [2, 4, 6, 2, 8, 9, 5];
-console.log(pegaPrimeirosComSlice(oi));
+// let oi = [2, 4, 6, 2, 8, 9, 5];
+// console.log(pegaPrimeirosComSlice(oi));

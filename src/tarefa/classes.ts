@@ -3,7 +3,7 @@ interface Conteudo {
     publicar(): void;
 }
 
-class Livro implements Conteudo {
+export class Livro implements Conteudo {
     titulo: string;
     paginas: number;
 
@@ -16,7 +16,7 @@ class Livro implements Conteudo {
     }
 }
 
-class Video implements Conteudo {
+export class Video implements Conteudo {
     titulo: string;
     minutos: number;
 
@@ -31,8 +31,8 @@ class Video implements Conteudo {
 }
 
 
-let video = new Video("Classes em Typescript", 15);
-let livro = new Livro("Desenvolvimento web com Angular e Typescript", 400);
+// let video = new Video("Classes em Typescript", 15);
+// let livro = new Livro("Desenvolvimento web com Angular e Typescript", 400);
 
-video.publicar();
-livro.publicar();
+// video.publicar();
+// livro.publicar();

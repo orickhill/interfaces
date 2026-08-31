@@ -6,10 +6,10 @@ function filtrarParesFilter(af: (a: number[]) => number[], array: number[]) {
 
 
 let arrowFunction = (array: number[]) => array.filter((e) => e % 2 == 0);
-let vsco: number[] = [8, 3, 9, 5, 6, 12];
+// let vsco: number[] = [8, 3, 9, 5, 6, 12];
 
 export function filtrarPares(entrada: number[]){
     return filtrarParesFilter(arrowFunction, entrada)
 }
 
-console.log(filtrarPares(vsco));
+// console.log(filtrarPares(vsco));

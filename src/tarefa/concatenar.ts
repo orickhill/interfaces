@@ -12,4 +12,4 @@ export function concatenar(entrada: string[]){
     return concatenarStrings(arrowFunction, entrada)
 }
 
-console.log(concatenar(vsco));
+// console.log(concatenar(vsco));

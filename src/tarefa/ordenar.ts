@@ -6,10 +6,10 @@ function ordenarDescrescente(af: (a: string[]) => string[], array: string[]) {
 
 
 let arrowFunction = (array: string[]) => array.sort((a: string, b: string) => a < b ? 1 : -1);
-let vsco: string[] = ['carro', 'boneco', 'ave', 'lapis'];
+// let vsco: string[] = ['carro', 'boneco', 'ave', 'lapis'];
 
 export function sortDescrescente(entrada: string[]){
     return ordenarDescrescente(arrowFunction, entrada)
 }
 
-console.log(sortDescrescente(vsco));
+// console.log(sortDescrescente(vsco));
